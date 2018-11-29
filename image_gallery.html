@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Places to visit in GA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #gallery-wrapper{border: 2px solid red; text-align: center;}
+        #top-section{border: 2px solid blue}
+        #middle-section{border: 2px solid green; text-align: center}
+        #bottom-section{border: 2px solid pink; text-align: center; }
+        .thumb{width: 15%;}
+    </style>
+</head>
+<body>
+    <div id="gallery-wrapper">
+        <div id="top-section">
+            <h1>A photo gallery made with CSS, HTML, a tiny bit of JS, and a whole lotta love</h1>
+
+        </div>
+        <div id="middle-section">
+            <h2>Middle Section</h2>
+            <img class="thumb" src="./arabia_mnt.jpg" onclick="bigImage.src = this.src"/>
+            <img class="thumb" src="./callaway_gardens.jpg" onclick="bigImage.src = this.src" />
+            <img class="thumb" src="./Etowah_Indian_Mounds.jpg" onclick="bigImage.src = this.src" />
+            <img class="thumb" src="./prov_state_canyon.jpg" onclick="bigImage.src = this.src" />
+            <img class="thumb" src="./wormsloe.jpg" onclick="bigImage.src = this.src" />
+        </div>
+        <div id="bottom-section">
+            <h2>Bottom Section</h2>
+            <img src="./prov_state_canyon.jpg" name="bigImage" />
+        </div>
+    </div>
+</body>
+</html>
