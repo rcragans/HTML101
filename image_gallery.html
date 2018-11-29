@@ -3,34 +3,36 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Places to visit in GA</title>
+    <title>Nicolas Cage Faces</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        #gallery-wrapper{border: 2px solid red; text-align: center;}
-        #top-section{border: 2px solid blue}
-        #middle-section{border: 2px solid green; text-align: center}
-        #bottom-section{border: 2px solid pink; text-align: center; }
+        #gallery-wrapper{border: 2px solid; text-align: center;}
+        #top-section{border: 2px solid}
+        #middle-section{border: 2px solid; text-align: center}
+        #bottom-section{border: 2px solid; text-align: center}
         .thumb{width: 15%;}
+        #preview{width: 50%;}
     </style>
 </head>
 <body>
     <div id="gallery-wrapper">
         <div id="top-section">
-            <h1>A photo gallery made with CSS, HTML, a tiny bit of JS, and a whole lotta love</h1>
+            <h1>A photo gallery of Nicolas Cage's Face</h1>
 
         </div>
-        <div id="middle-section">
-            <h2>Middle Section</h2>
-            <img class="thumb" src="./arabia_mnt.jpg" onclick="bigImage.src = this.src"/>
-            <img class="thumb" src="./callaway_gardens.jpg" onclick="bigImage.src = this.src" />
-            <img class="thumb" src="./Etowah_Indian_Mounds.jpg" onclick="bigImage.src = this.src" />
-            <img class="thumb" src="./prov_state_canyon.jpg" onclick="bigImage.src = this.src" />
-            <img class="thumb" src="./wormsloe.jpg" onclick="bigImage.src = this.src" />
-        </div>
+        
         <div id="bottom-section">
-            <h2>Bottom Section</h2>
-            <img src="./prov_state_canyon.jpg" name="bigImage" />
+            <h2>Nicolas Cage in your face</h2>
+            <img id="preview" src="https://timedotcom.files.wordpress.com/2015/07/nicolas-cage1.jpg" name="bigImage" />
         </div>
+        <div id="middle-section">
+                <h2>The many faces of Nicolas Cage</h2>
+                <img class="thumb" src="http://images5.fanpop.com/image/photos/26900000/Nicolas-Cage-nicolas-cage-26969958-1974-1300.jpg" onmouseover="bigImage.src = this.src"/>
+                <img class="thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nicolas_Cage_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29.jpg/220px-Nicolas_Cage_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29.jpg" onmouseover="bigImage.src = this.src" />
+                <img class="thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Nicolas_Cage_Deauville_2013.jpg/220px-Nicolas_Cage_Deauville_2013.jpg" onmouseover="bigImage.src = this.src" />
+                <img class="thumb" src="https://www.biography.com/.image/t_share/MTIwNjA4NjMzNzYwMjg2MjIw/nicolas-cage-9234498-1-402.jpg" onmouseover="bigImage.src = this.src" />
+                <img class="thumb" src="https://timedotcom.files.wordpress.com/2015/07/nicolas-cage1.jpg" onmouseover="bigImage.src = this.src" />
+            </div>
     </div>
 </body>
 </html>
